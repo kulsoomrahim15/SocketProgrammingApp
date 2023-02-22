@@ -1,0 +1,15 @@
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\bin\Debug\net6.0\Server_Side.exe
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\bin\Debug\net6.0\Server_Side.deps.json
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\bin\Debug\net6.0\Server_Side.runtimeconfig.json
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\bin\Debug\net6.0\Server_Side.dll
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\bin\Debug\net6.0\Server_Side.pdb
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.csproj.AssemblyReference.cache
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.AssemblyInfoInputs.cache
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.AssemblyInfo.cs
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.csproj.CoreCompileInputs.cache
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.dll
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\refint\Server_Side.dll
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.pdb
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\Server_Side.genruntimeconfig.cache
+C:\Users\kulsoom.rahim\source\repos\Server_Side\Server_Side\obj\Debug\net6.0\ref\Server_Side.dll
