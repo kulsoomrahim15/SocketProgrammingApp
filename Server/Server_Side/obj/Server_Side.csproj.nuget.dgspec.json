@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kulsoom.rahim\\source\\repos\\Server_Side\\Server_Side\\Server_Side.csproj": {}
+    "E:\\SocketProgramming\\Server\\Server_Side\\Server_Side.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kulsoom.rahim\\source\\repos\\Server_Side\\Server_Side\\Server_Side.csproj": {
+    "E:\\SocketProgramming\\Server\\Server_Side\\Server_Side.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulsoom.rahim\\source\\repos\\Server_Side\\Server_Side\\Server_Side.csproj",
+        "projectUniqueName": "E:\\SocketProgramming\\Server\\Server_Side\\Server_Side.csproj",
         "projectName": "Server_Side",
-        "projectPath": "C:\\Users\\kulsoom.rahim\\source\\repos\\Server_Side\\Server_Side\\Server_Side.csproj",
+        "projectPath": "E:\\SocketProgramming\\Server\\Server_Side\\Server_Side.csproj",
         "packagesPath": "C:\\Users\\kulsoom.rahim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulsoom.rahim\\source\\repos\\Server_Side\\Server_Side\\obj\\",
+        "outputPath": "E:\\SocketProgramming\\Server\\Server_Side\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "OosFkvtsmnF5H64Ak6LdIntb9mRO3XrE5kBoY3M6xRtfNo4XfxnLDPKy/frN637zZ722Z6LDgeCrDY7Ne43wlQ==",
+  "dgSpecHash": "mhhRMjzY188BJMNvFikpm5RJgXcjvB20YviMrv5hlciP/67LtgX96fMW8DV9/AjdJ5rgppZzY+B4cd+jYI/VoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kulsoom.rahim\\source\\repos\\ClientSide\\ClientSide\\ClientSide.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\SocketProgramming\\Client\\ClientSide\\ClientSide.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kulsoom.rahim\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0-preview.1.23110.8\\microsoft.win32.systemevents.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\kulsoom.rahim\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-preview.1.23110.8\\system.configuration.configurationmanager.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\kulsoom.rahim\\.nuget\\packages\\system.drawing.common\\8.0.0-preview.1.23110.8\\system.drawing.common.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\kulsoom.rahim\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-preview.1.23110.8\\system.security.cryptography.protecteddata.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\kulsoom.rahim\\.nuget\\packages\\system.security.permissions\\8.0.0-preview.1.23110.8\\system.security.permissions.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\kulsoom.rahim\\.nuget\\packages\\system.windows.extensions\\8.0.0-preview.1.23110.8\\system.windows.extensions.8.0.0-preview.1.23110.8.nupkg.sha512"
+  ],
   "logs": []
 }

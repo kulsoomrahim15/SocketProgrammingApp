@@ -2,29 +2,27 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Configuration;
+using System.Timers;
 
-class Client
+namespace ClientSide
 {
-    static void Main(string[] args)
+    class Program
     {
-        string ipAddress = "127.0.0.1";
-        int port = 8080;
+        static void Main()
+        {
+            string IPAddress = ConfigurationManager.AppSettings["IPAddress"];
+            int PORT = int.Parse(ConfigurationManager.AppSettings["PORT"]);
 
-        TcpClient client = new TcpClient(ipAddress, port);
-        Console.WriteLine("Connected to server");
+            // Client.InvokeServerForTime(IPAddress, PORT);
+            System.Timers.Timer timer = new System.Timers.Timer();
+            timer.Interval = 1000;
+            // Set the callback function to be executed every 1 second
+            timer.Elapsed += (sender, e) => Client.InvokeServerForTime(IPAddress, PORT);
+            timer.Start();
+            Console.ReadLine();
 
-        NetworkStream stream = client.GetStream();
 
-        string message = "Hello from the client";
-        byte[] data = Encoding.ASCII.GetBytes(message);
-        stream.Write(data, 0, data.Length);
-        Console.WriteLine("Sent: {0}", message);
-
-        data = new byte[256];
-        int bytes = stream.Read(data, 0, data.Length);
-        message = Encoding.ASCII.GetString(data, 0, bytes);
-        Console.WriteLine("Received: {0}", message);
-
-        client.Close();
+        }
     }
 }
